@@ -15,7 +15,7 @@ Dieses Projekt besteht aus drei Komponenten:
 Datensammler
 ------------
 
-[Niobos](http://blog.dest-unreach.be/2012/01/29/imax-b6-charger-protocol-reverse-engineered) hat das Ladegerät analysiert und einen kleinen Script gebastelt, der den binary blob dekodiert. Der Script kommt nach `./collector/`.
+[Niobos](http://blog.dest-unreach.be/2012/01/29/imax-b6-charger-protocol-reverse-engineered) hat das Ladegerät analysiert und einen kleinen Script gebastelt, der den binary blob dekodiert. Der Script kommt nach `./collector/` und ist hier zu finden: https://github.com/niobos/iMaxB6
 
 - `read_serial.pl $DEVICE` liest aus
 - `decode.pl` konvertiert in *lesbar*
