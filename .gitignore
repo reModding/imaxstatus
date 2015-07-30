@@ -1,0 +1,4 @@
+collector/decode.pl
+collector/read_serial.pl
+log/logfile
+log/logfile-test

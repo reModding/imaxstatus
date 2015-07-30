@@ -1,0 +1,17 @@
+--- decode.pl.orig	2012-01-29 17:03:56.000000000 +0100
++++ decode.pl	2015-07-30 18:07:35.181683048 +0200
+@@ -1,8 +1,14 @@
+ #!/usr/bin/perl
++#
++# Author: http://blog.dest-unreach.be/2012/01/29/imax-b6-charger-protocol-reverse-engineered
+ 
+ use strict;
+ use warnings;
+ 
++# Disable output buffering:
++select(STDOUT);
++$| = 1;
++
+ my $input = *STDIN;
+ 
+ sub hexdump (@) {

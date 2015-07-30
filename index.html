@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>IMAX B6 Status</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <script src="js/html5shiv.min.js"></script>
+    <script src="js/respond.min.js"></script>
+  </head>
+  <body>
+    <div class="container">
+      <div class="page-header">
+        <h1><span class="label label-success hidden" id="online">&nbsp;</span> <span class="label label-danger" id="offline">&nbsp;</span> IMAX B6 Status: <span id="state"></span> <span id="direction"></span></h1>
+      </div>
+    </div>
+
+    <div class="container">
+    <div class="well" id="loading">
+      <p class="text-muted">Warte auf Daten ...</p>
+    </div>
+
+    <div class="hidden" id="main">
+    <div class="well">
+      <div class="row">
+        <div class="col-md-4 text-center"><h3><span id="Iout"></span></h3><p class="text-muted">Aktueller (Ent-)Ladestrom</p></div>
+        <div class="col-md-4 text-center"><h3><span id="Qout"></span></h3><p class="text-muted">(Ent-)Lademenge</p></div>
+        <div class="col-md-4 text-center"><h3><span id="t"></span></h3><p class="text-muted">Abgelaufene Zeit</p></div>
+      </div>
+    </div>
+
+      <hr />
+
+      <div id="cell_voltages_wrapper">
+        <div class="row text-center"></div>
+        <hr />
+      </div>
+
+      <div class="row">
+        <div class="col-md-3 text-center"><h3><span id="mode"></span></h3><p class="text-muted">Modus</p></div>
+        <div class="col-md-3 text-center"><h3><span id="Uin"></span></h3><p class="text-muted">Eingangsspannung</p></div>
+        <div class="col-md-3 text-center"><h3><span id="Uout"></span></h3><p class="text-muted">Aktuelle (Ent-)Ladespannung</p></div>
+        <div class="col-md-3 text-center"><h3><span id="Iset"></span></h3><p class="text-muted">Ziel-Ladestrom</p></div>
+      </div>
+
+      <hr />
+
+      <dl class="dl-horizontal">
+        <dt>Letztes Update:</dt>
+	<dd> <span id="timestamp"></span></dd>
+      </dl>
+    </div>
+    </div>
+    </div>
+
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/status.js"></script>
+  </body>
+</html>
