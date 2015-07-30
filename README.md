@@ -55,6 +55,8 @@ Die Parserklasse befindet sich in `imaxParser.php` und wertet immer die letzte Z
 Darsteller
 ----------
 
+![Screenshot](https://raw.githubusercontent.com/reModding/imaxstatus/master/screenshot.png)
+
 Der Darsteller ist "der Rest" und ist nichts anderes als eine HTML-Seite, die mit Bootstrap aufgehübscht wurde und per JavaScript/jQuery regelmäßig `json.php` aufruft. `json.php` ruft wiederum die Parserklasse auf.
 
 Dies erzeugt auf Dauer etwas Last auf dem Webserver. Deshalb sollte man diesen Teil noch anders lösen, beispielsweise über WebSockets (TBD).
