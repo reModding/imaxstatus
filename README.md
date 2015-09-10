@@ -3,7 +3,7 @@ IMAX B6 Status
 
 Das IMAX B6 ist ein Ladegerät, welches über seinen seriellen Ausgang Informationen zum aktuellen Betriebsstatus liefert.
 
-Der serielle Ausgang muss in den Einstellunge noch aktiviert werden ("USB/Temp Cut-Off" auf "USB Enable" stellen). Die Pinbelegung ist von links (Stecker fürs Netzteil) nach rechts wie folgt: VCC 5 V / TX / GND
+Der serielle Ausgang muss in den Einstellungen noch aktiviert werden ("USB/Temp Cut-Off" auf "USB Enable" stellen). Die Pinbelegung ist von links (Stecker fürs Netzteil) nach rechts wie folgt: VCC 5 V / TX / GND
 
 Dieses Projekt besteht aus drei Komponenten:
 
